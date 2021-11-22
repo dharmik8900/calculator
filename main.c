@@ -22,16 +22,16 @@ int main(){
 	scanf("%d",&no);
 switch(no){
 	case 1 :
-	printf("Add a and b is : %d\n",sum(a,b));
+	printf("Addition a and b is : %d\n",sum(a,b));
 	break;
 	case 2 :
-	printf("Sub a and b is : %d\n",sub(a,b));
+	printf("Subtraction a and b is : %d\n",sub(a,b));
 	break;
 	case 3 :
-	printf("Mul a and b is : %d\n",mul(a,b));
+	printf("Multiplication a and b is : %d\n",mul(a,b));
 	break;
 	case 4 :
-	printf("Div a and b is : %d\n",div(a,b));
+	printf("division a and b is : %d\n",div(a,b));
 	break;
 }
 
