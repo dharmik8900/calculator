@@ -13,21 +13,25 @@ int div(int a,int b){
 }
 int main(){
 	int no;
-	int a=10,b=8;
-	printf("enter a operation like:\n1 for add\n2 for sub\n3 for mul\n4 for div");
+	int a,b;
+	printf("Enter a first number:");
+	scanf("%d",&a);
+	printf("\nEnter a second number:");
+	scanf("%d",&b);
+	printf("\nenter a operation like:\n1 for add\n2 for sub\n3 for mul\n4 for div\n");
 	scanf("%d",&no);
 switch(no){
 	case 1 :
-	printf("add a and b is : %d",sum(a,b));
+	printf("add a and b is : %d\n",sum(a,b));
 	break;
 	case 2 :
-	printf("sub a and b is : %d",sub(a,b));
+	printf("sub a and b is : %d\n",sub(a,b));
 	break;
 	case 3 :
-	printf("mul a and b is : %d",mul(a,b));
+	printf("mul a and b is : %d\n",mul(a,b));
 	break;
 	case 4 :
-	printf("div a and b is : %d",div(a,b));
+	printf("div a and b is : %d\n",div(a,b));
 	break;
 }
 
